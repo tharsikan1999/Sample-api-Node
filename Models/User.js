@@ -1,6 +1,6 @@
 const { Schema } = require("mongoose");
 
-const mongoose = require(".././connectDB");
+const mongoose = require("../Mongodb/connectDB");
 
 const userSchema = new Schema({
   name: String,
