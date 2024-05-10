@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const User = require("./User");
+const User = require("./Models/User");
 
 mongoose.connect("mongodb://127.0.0.1:27017/SampleApi");
 const db = mongoose.connection;
